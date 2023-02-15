@@ -14,7 +14,7 @@ output "def_list"{
   value = var.sample5[2] 
 }
 
-variable "sample5" {
+variable "sample6" {
    
    default = {
     number = 100
@@ -23,6 +23,6 @@ variable "sample5" {
    }
 
 }
-output "def_list"{
+output "def_map"{
   value = var.sample5["string"] 
 }
