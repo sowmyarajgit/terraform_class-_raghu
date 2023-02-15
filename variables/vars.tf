@@ -24,5 +24,5 @@ variable "sample6" {
 
 }
 output "def_map"{
-  value = var.sample5["string"] 
+  value = var.sample6["string"] 
 }
