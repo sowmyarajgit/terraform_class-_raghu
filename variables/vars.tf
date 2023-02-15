@@ -34,3 +34,12 @@ variable "demo_tfvars" {
 output "demo_tfvars"{
   value = var.demo_tfvars
 }
+
+variable "demo2_tfvars" {
+  
+}
+output "demo2_tfvars"{
+  value = var.demo2_tfvars
+}
+
+
