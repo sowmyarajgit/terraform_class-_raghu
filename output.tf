@@ -3,9 +3,7 @@ output "sample" {
     value = "hello_world"
 }
 
-data "aws_ami" "example" {
 
-}
 
 data "aws_ami" "example" {
   
