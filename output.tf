@@ -26,7 +26,7 @@ output "instance" {
     value = data.aws_instance.foo.public_ip
 }
 
-output "instance" {
+output "dns" {
 
     value = data.aws_instance.foo.public_dns
 }
