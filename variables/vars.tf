@@ -13,3 +13,16 @@ variable "sample5" {
 output "def_list"{
   value = var.sample5[2] 
 }
+
+variable "sample5" {
+   
+   default = {
+    number = 100
+    string = "xyz"
+    boolean = false
+   }
+
+}
+output "def_list"{
+  value = var.sample5["string"] 
+}
