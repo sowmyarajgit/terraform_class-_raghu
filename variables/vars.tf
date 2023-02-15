@@ -26,3 +26,11 @@ variable "sample6" {
 output "def_map"{
   value = var.sample6["string"] 
 }
+
+variable "demo_tfvars" {
+  
+}
+
+output "demo_tfvars"{
+  value = var.demo_tfvars
+}
